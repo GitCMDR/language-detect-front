@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
-
+import TextReducer from './reducer_text'
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  text: TextReducer
 });
 
 export default rootReducer;
